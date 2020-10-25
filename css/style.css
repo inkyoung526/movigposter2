@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+.backbox {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.textbox {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	top: 3%;
+}
+
+.textbox2 {
+	width: 100%;
+	height: 270px;
+	position: absolute;
+	top: 10%;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 100%;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 700%;
+	text-align: center;
+}
+
+
+
+.vivid {
+	width: 410px;
+	height: 410px;
+	background-color: #ff0081;
+	position: absolute;
+	bottom: 10%;
+}
+
+
+.pastel {
+	width: 410px;
+	height: 410px;
+	background-color: #e3aeff;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehd;
+	animation-duration: 2s;
+	left: 420px;
+}
+
+.mono {
+	width: 410px;
+	height: 410px;
+	background-color: #c5c3c3;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehdxn;
+	animation-duration: 3s;
+	left: 840px;
+}
+
+.colorless {
+	width: 410px;
+	height: 410px;
+	background-color: black;
+	position: absolute;
+	bottom: 10%;
+	animation-name: dlehdtka;
+	animation-duration: 4s;
+	left: 1260px;
+}
+
+.vivid:hover {
+	transform: scale(0,0);
+	transition-duration: 4s;
+	border-radius: 50%;
+}
+
+
+.pastel:hover {
+	transform: scale(0,0);
+	transition-duration: 4s;
+	border-radius: 50%;
+
+}
+
+.mono:hover {
+	transform: scale(0,0);
+	transition-duration: 4s;
+	border-radius: 50%;
+
+}
+
+.colorless:hover {
+	transform: scale(0,0);
+	transition-duration: 4s;
+	border-radius: 50%;
+
+}
+
+@-webkit-keyframes dlehd{
+	0%{
+		transform: translateX(-420px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+@-webkit-keyframes dlehdxn{
+	0%{
+		transform: translateX(-840px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+@-webkit-keyframes dlehdtka{
+	0%{
+		transform: translateX(-1260px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+
+.imgpastel {
+	width: 410px;
+	height: 410px;
+	position: absolute;
+	bottom: 10%;
+	left: 420px;
+	animation-name: opcityimg;
+	animation-duration: 5s;
+}
+
+@-webkit-keyframes opcityimg{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 0%;
+	}
+	100%{
+		opacity: 100%;
+	}
+}
